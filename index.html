@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Demo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="terminal">
+        <!-- 
+            TODO: 
+                Add a field in the header indicating the terminal size e.g. 300x100.
+                Control the terminal size by clicking and dragging the borders. This should also influence the terminal size field.
+                Add close, minimize, and maximize buttons to the terminal.
+                Add responsiveness to the terminal.
+                Make it possible to click on the top of the terminal and drag it to any part of the screen.
+        -->
+
+        <header>
+            <div class="header-left">
+                <!-- Botões do terminal -->
+            </div>
+            <div class="header-center">
+                celsolarussa - zsh
+            </div>
+        </header>
+        <p id="output"></p>
+        <p id="result"></p>
+        <p id="nextLine"></p>
+        <img id="refresh-button" src="./img/refresh.png" alt="refresh-button" onclick="location.reload()">
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
